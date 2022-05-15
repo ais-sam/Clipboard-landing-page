@@ -1,0 +1,12 @@
+/* =============== PRATNERS ============ */
+.partners{
+    &__grid{
+        @include responsive-grid(20px,200px);
+        row-gap: 60px;
+        align-items: center;
+        justify-items: center;
+        img{
+            max-width: 150px;
+        }
+    }
+}

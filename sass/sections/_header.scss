@@ -1,0 +1,32 @@
+/* =============== HEADER ============= */
+header{
+    margin-top: -30px;
+    background-image: url("../../images/bg-header-desktop.png");
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0 20px;
+    .container{
+        text-align: center;
+        .logo{
+            margin-bottom: 40px;
+        }
+        .header__text{
+            h1{
+                margin-bottom: 10px;
+                word-spacing: 3px;
+            }
+            p{
+                color: $grayish-blue;
+                max-width: 610px;
+                margin: 0 auto ;
+            }
+            margin-bottom: 50px;
+        }
+}
+@media screen and (max-width:488px) {
+    .logo img{
+        width: 100px;
+    }
+    background-image: url("../../images/bg-header-mobile.png");
+}
+}
